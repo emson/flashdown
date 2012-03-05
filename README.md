@@ -1,4 +1,4 @@
-# Flashdown: A flash card's written in Markdown and managed by Git
+# Flashdown: Flash cards & Markdown
 
 Welcome to Flashdown, a flash card tool writen with developers in mind
 and uses sensible libraries for buliding and managing your flash cards.
