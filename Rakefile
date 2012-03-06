@@ -1,4 +1,5 @@
-require "bundler/gem_tasks"
+# require "bundler/gem_tasks"
+require 'bundler/setup'
 
 $LOAD_PATH << File.join(File.dirname(__FILE__), 'lib')
 $LOAD_PATH << File.join(File.dirname(__FILE__))
