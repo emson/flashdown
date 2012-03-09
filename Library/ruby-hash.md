@@ -4,7 +4,7 @@ Ruby Hash methods flash cards.
 
 ----
 
-How can you add Hash values without using `=>`?
+How can you create a Hash of values without using `=>`?
 
 
 	Hash["a", 100, "b", 200]

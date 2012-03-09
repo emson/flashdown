@@ -9,6 +9,11 @@ and uses sensible libraries for buliding and managing your flash cards.
 
 
 
+## TODO
+
+- Add Commander gem for commandline handling
+- Add Redis for persistance store
+- Load Markdown files into store
 
 
 

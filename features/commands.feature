@@ -13,4 +13,4 @@ Feature: User enters commands
     When I load the file "my_cards.md"
     Then I should have cards loaded
 
-  
+
