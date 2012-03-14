@@ -12,20 +12,9 @@ require 'flashdown'
 
 program :version, Flashdown::VERSION
 program :description, 'Flash card tool that utilizes Markdown.'
- 
-command :start, do |c|
-  c.syntax = 'flash start, [options]'
-  c.summary = ''
-  c.description = ''
-  c.example 'description', 'command example'
-  c.option '--some-switch', 'Some switch that does something'
-  c.action do |args, options|
-    # Do something or c.when_called Flashdown::Commands::Start,
-  end
-end
 
-command :load, do |c|
-  c.syntax = 'flash load, [options]'
+command :load do |c|
+  c.syntax = 'flash load [options]'
   c.summary = ''
   c.description = ''
   c.example 'description', 'command example'
@@ -35,25 +24,4 @@ command :load, do |c|
   end
 end
 
-command :review, do |c|
-  c.syntax = 'flash review, [options]'
-  c.summary = ''
-  c.description = ''
-  c.example 'description', 'command example'
-  c.option '--some-switch', 'Some switch that does something'
-  c.action do |args, options|
-    # Do something or c.when_called Flashdown::Commands::Review,
-  end
-end
-
-command :export do |c|
-  c.syntax = 'flash export [options]'
-  c.summary = ''
-  c.description = ''
-  c.example 'description', 'command example'
-  c.option '--some-switch', 'Some switch that does something'
-  c.action do |args, options|
-    # Do something or c.when_called Flashdown::Commands::Export
-  end
-end
 

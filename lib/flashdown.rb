@@ -1,5 +1,7 @@
-require "flashdown/version"
 
-module Flashdown
-  # Your code goes here...
+
+Dir[File.join(File.dirname(__FILE__), "flashdown/*.rb")].each do |file|
+  puts file
+  require file
 end
+
