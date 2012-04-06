@@ -60,6 +60,18 @@ How can you remove evey element pair that matches a specific criteria?
 
 ----
 
+What does the `hsh.shift` method do?
+
+
+It deletes and returns the first key / value pair as an array:
+
+    d = { 'data' => { 'a' => '1', 'b' => '2' } }
+    d.shift
+    #=> ['data', { 'a' => '1', 'b' => '2' }]
+    puts d.inspect
+    #=> {}
+
+----
 
 
 
